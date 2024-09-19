@@ -10,3 +10,5 @@
 - CSS: For styling the interface and making it responsive.
 - JavaScript: For functionality and fetching weather data from APIs.
 - Google Fonts: For typography and enhancing user experience.
+ ## Live Demo 🌐
+- [CloudSeek Live Demo](https://cloud-seek.vercel.app/)
