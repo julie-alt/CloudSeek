@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif ;
+  box-sizing:border-box;
+}
+body{
+  background: linear-gradient(180deg, #d3cce3 0%, #e9e4f0 100%);
+}
+.card{
+  width:90%;
+  max-width: 470px;
+  background: linear-gradient(180deg, #e5e6e7, #cedae6);
+  color:#574c4c;
+  margin: 50px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+}
+search{
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search input{
+  border: 0;
+  outline: 0;
+  background: #d3cce3;
+  color: #555;
+  padding: 10px 25px;
+  height: 60px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+}
+.search input:focus{
+  background:#fff ;
+}
+.search button{
+  border: 0;
+  outline: 0;
+  background: #d3cce3;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+.search button img{
+  width: 16px
+}
+.weather-icon{
+  width:200px;
+  margin-top: 30px;
+}
+.weather h1{
+  font-size: 80px;
+  font-weight: 500;
+}
+.weather h2{
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+.details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+.col{
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.col img{
+  width: 40px;
+  margin-right: 10px;
+}
+.humidity, .wind{
+  font-size: 28px;
+  margin-top: -6px;
+}
+.weather{
+  display:none
+}
+.weather-desc{
+  font-size: 16px;
+  font-weight: 700;
+}
+.error{
+  text-align: left;
+  margin-left: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+  display: none;
+}
+.navbar{
+  color: #555;
+  margin: 40px;
+  /* border: 1px solid #fff; */
+  padding: 20px;
+}
+.navbar ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+}
+.navbar li{
+  font-size: 30px;
+  font-weight: 600;
+  cursor:pointer;
+  padding: 10px;
+}
+.navbar li:hover{
+  border: 1px solid #e5e6e7;
+  border-radius: 4px;
+  background-color: #e5e6e7;
+  
+}
+.header{
+  text-align: center;
+}
+#title{
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 50px;
+}
